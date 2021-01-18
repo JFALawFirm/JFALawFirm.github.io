@@ -15,11 +15,16 @@
 
 <%- js('js/jquery-3.4.1.min.js') %>
 
+<%- js('js/jquery.history.js') %>
+<%- js('js/ajaxify-html5.js') %>
+
+
 <% if (theme.fancybox){ %>
   <%- js('fancybox/jquery.fancybox.min.js') %>
 <% } %>
 
 <%- js('js/script') %>
+
 <%- partial('gauges-analytics') %>
 
 <% if(theme.valine.enable && theme.valine.appId && theme.valine.appKey){ %>
