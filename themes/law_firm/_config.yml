@@ -3,7 +3,7 @@ menu:
   Home: /
 #  Archives: /archives
 rss: /atom.xml
-banner: "/images/whale_tail.jpg"
+banner: "/images/whale_tail_compressed.jpg"
 
 # Content
 excerpt_link: Read More
@@ -51,7 +51,7 @@ share_links: false
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /favicon.png
+favicon: /images/favicon.png
 twitter:
 fb_admins:
 fb_app_id:
