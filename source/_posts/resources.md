@@ -4,7 +4,7 @@ date: 2016/1/01 5:45:00
 ---
 
 # California Resources
-[Find California Code](http://leginfo.legislature.ca.gov/faces/codes.xhtm)
+[Find California Code](http://leginfo.legislature.ca.gov/faces/codes.xhtml)
 	
 [California Debt and Investment Advisory Commission](https://www.treasurer.ca.gov/cdiac/)
 
