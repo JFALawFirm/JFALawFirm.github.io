@@ -3,18 +3,20 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
 	  <% if (config.logo) { %>
-	  <img id="logo" src = "<%= config.logo %>" alt="<%= config.title %>"/>
-	  <% } %>
-	  <% if (false && config.title) { %>
+	  <a href="<%- url_for() %>">
+		<img id="logo" src = "<%= config.logo %>" alt="<%= config.title %>"/>
+	  </a>
+	  <% } else { %>
+	  <%  if (config.title) { %>
       <h1 id="logo-wrap">
         <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
 	  <% } %>
-      <% if (false && (theme.subtitle || config.subtitle)){ %>
+      <% if ((theme.subtitle || config.subtitle)){ %>
         <h2 id="subtitle-wrap">
           <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle || config.subtitle %></a>
         </h2>
-      <% } %>
+      <% } } %>
     </div>
     <div id="header-inner" class="inner">
       <nav id="main-nav">
