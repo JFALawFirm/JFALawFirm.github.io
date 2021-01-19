@@ -137,8 +137,10 @@
           if (res.url !== location.href.split("#")[0]) {
             // update URL in address bar
             history.pushState(domStates.length, doc.title, res.url);
+			domStates.push(doc);
           } else {
             history.replaceState(domStates.length - 1, doc.title, res.url);
+			domStates[domStates.length-1] = doc; //change last in history (current)
           }
         }
       }).catch(function (err) {
@@ -152,13 +154,6 @@
       lastDomState.body = document.body;
       lastDomState.title = document.title;
 
-      if (domStates.indexOf(lastDomState) >= 0) {
-        lastDomState = newDomState;
-      } else {
-        domStates.push(lastDomState); // make sure that next state will be a new object
-
-        lastDomState = {};
-      } // update HTML
 	  var l_target = document.body.querySelector('#wrap > div.outer');
 	  var r_target = newDomState.body.querySelector('#wrap > div.outer');
 	  var l_parent = l_target.parentElement;
@@ -172,13 +167,8 @@
       var stateIndex = e.state; // numeric value indicates better-ajaxify state
 
       if (typeof stateIndex === "number") {
-        var domState = domStates[stateIndex];
-
-        if (domState) {
-          dispatchAjaxifyEvent(document, "render", domState);
-        } else {
-          dispatchAjaxifyEvent(document, "fetch", new Request(location.href));
-        }
+		  //should use domStates if possible (ignoring for now)
+		dispatchAjaxifyEvent(document, "fetch", new Request(location.href));
       } // FIXME: trigger navigation request when /a -> /b#hash
 
     }); // update initial state address url
