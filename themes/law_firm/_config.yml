@@ -7,7 +7,7 @@ banner: "/images/whale_tail_compressed.jpg"
 
 # Content
 excerpt_link: Read More
-fancybox: true
+fancybox: false
 
 # # Footer
 # copyright: |-
@@ -47,6 +47,12 @@ recent_posts_limits: 5
 # Post behavior
 show_date: false
 share_links: false
+
+html_prettify:
+    enable: true
+    options:
+        indent_size: 1
+        indent_char: "\t"
 
 # Miscellaneous
 google_analytics:
