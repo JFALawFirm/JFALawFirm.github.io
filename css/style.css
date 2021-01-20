@@ -1393,7 +1393,7 @@ svg.waves {
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
   position: absolute;
-  max-height: 150px;
+  max-height: 60px;
 }
 /* Waves Animation */
 .parallax > use {
