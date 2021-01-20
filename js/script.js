@@ -115,15 +115,3 @@
     $container.removeClass('mobile-nav-on');
   });
 })(jQuery);
-
-var low_range = 4565;
-var high_range = 4570;
-var current = low_range;
-var rotate_images = window.setInterval(function(){
-	var url_str = "url(/images/IMG_"+current.toString()+".JPG)";
-	banner.style.backgroundImage = url_str;
-	current += 1;
-	if (current > high_range) {
-		current = low_range;
-	}
-},2000);
