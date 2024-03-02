@@ -94,11 +94,13 @@ body > div#container > div#wrap > div.outer
 	min-height: s('calc(100vh - %s - %s)',banner-height, footer-height)
 	
 /* Waves Position */
-svg.waves
+svg.waves {
 	transform: translateY(-100%);
 	position: absolute;
-	max-height: (banner-height / 5)
-	
+	max-height: (banner-height / 5);
+	width: 100%;
+}
+
 /* Waves Animation */
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
