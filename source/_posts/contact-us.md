@@ -7,5 +7,3 @@ date: 2016/1/01 6:00:00
 <div style="text-align: center;">Laguna Hills, CA</div>
 <div style="text-align: center;">92654</div>
 
-<h2 id="Phone" style="text-align: center;"><a href="#Phone" class="headerlink" title="Phone"></a>Phone</h2>
-<p style="text-align: center;">949-452-0500</p>
