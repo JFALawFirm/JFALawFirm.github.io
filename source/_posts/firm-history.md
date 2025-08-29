@@ -1,10 +1,8 @@
 ---
-title: Firm History
-date: 2016/1/01 6:30:00
+title: Mr. Anderson has retired
+date: 2025/8/29 11:00:00
 ---
-James F. Anderson Law Firm, a Professional Corporation (“JFA Law Firm”), is a nationally recognized bond counsel firm qualified to act as bond counsel, disclosure counsel and/or underwriter’s counsel in a variety of municipal bond financing structures.
+Mr. Anderson has retired after 40 plus years of practice in the public finance sector.  He is no longer actively practicing.  He is thankful for the friendship and support of his clients, colleagues, and former partner throughout his career.  Mr. Anderson has many fond memories from his practice over the years.  He is also very thankful for the steadfast dedication of his staff over the years.  Mr. Anderson is looking forward to this new phase of his life and so is his family. He is looking forward to many new cherished memories and opportunities.
 
-Mr. Anderson has been active in public finance since 1983, and in 2016 formed his own firm, James F. Anderson Law Firm, A Professional Corporation ("JFA Law Firm"), in connection with for the retirement of his former partner.  JFA Law Firm is the successor firm to a partnership formed by Mr. Anderson and his former partner in 1993 (after practicing at other law firms) in order to provide legal services not only of the highest quality, but with the personalized attention expected by their clients to meet their financing needs. JFA Law Firm provides public finance services and does not have any practice areas other than its public finance practice.
-
-Mr. Anderson is active as bond counsel and disclosure counsel to school districts, cities, counties, water districts and other local entities, and as counsel to underwriting firms in connection with the issuance of bonds, such as general obligation bonds, special tax (community facilities district) bonds, revenue bonds, and enterprise revenue bonds, and execution and delivery of certificates of participation. JFA Law Firm has been involved in numerous new money and refunding issues.
+Best wishes to everyone.
 
